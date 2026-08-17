@@ -1,4 +1,4 @@
-# ☀️ SOLAR
+# SOLAR
 
 Aplicación móvil desarrollada con **React Native y Expo**, orientada a la exploración visual del **Sistema Solar**.
 
@@ -115,7 +115,7 @@ Se pueden incorporar nuevas funcionalidades, como:
 * Sistema de favoritos.
 * Mejoras en la interfaz de usuario.
 
-## 👨Autor
+## Autor
 
 **Pablo Gareis**
 
