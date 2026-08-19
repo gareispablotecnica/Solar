@@ -1,10 +1,28 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View,ImageBackground } from 'react-native';
+
+import Logo from './src/Media/Fondo/Fondo1.gif'
+import { useState } from 'react';
+import Home from './src/screen/Home'
 
 export default function App() {
+  const [Pagina,setPagina]=useState('')
+
+  const Redireccionar= setTimeout(() => {
+      setPagina('Home')
+  }, 3000);
+
+  if(Pagina=='Home'){
+    return <Home />
+  }
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <ImageBackground 
+          source={Logo}
+          resizeMode='cover'
+          style={styles.imgFondo}
+      />
       <StatusBar style="auto" />
     </View>
   );
@@ -13,8 +31,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
+  imgFondo:{
+    width:'100%',
+    height:'100%',
+  }
+
 });
