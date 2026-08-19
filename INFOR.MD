@@ -70,3 +70,9 @@ Descripción:
 Es el planeta más alejado del Sol y uno de los gigantes de hielo. Presenta vientos extremadamente rápidos y una atmósfera de color azulada debido principalmente a la presencia de metano.
 
 Distancia de la Tierra: aproximadamente 4.500 millones de km.
+
+
+
+
+npm i
+npm i expo
