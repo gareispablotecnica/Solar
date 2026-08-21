@@ -43,4 +43,9 @@ const styles = StyleSheet.create({
        borderTopLeftRadius:20,
        borderBottomLeftRadius:20,
     },
+    Nombre:{
+        color:'#fff',
+        fontSize:20,
+        fontWeight:'bold',
+    }
 })
