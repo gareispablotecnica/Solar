@@ -13,7 +13,7 @@ const Encabezado = () => {
             />
             <View style={styles.menu}>
                 <Text style={styles.Titulo}>Sistema Solar</Text>
-                <Text style={styles.eslogan}>Un sol, ocho mundo</Text>
+                <Text style={styles.eslogan}>Un sol, ocho mundos,Gopez ❤</Text>
             </View>
             <Text style={styles.Icono}>≡</Text>
         </View>
@@ -45,18 +45,18 @@ const styles = StyleSheet.create({
         borderRadius:'60%',
     },
     menu:{
-        marginRight:80,
+        marginRight:50,
     },
     Titulo:{
         color:'#fff',
         fontSize:18,
-        marginTop:10,
-       
+        marginTop:10, 
     },
     Icono:{
         color:'#fff',
         fontSize:25,
-        marginTop:10,
+        marginTop:15,
+        marginRight:5,
     },
     eslogan:{
         color:'#fff',
